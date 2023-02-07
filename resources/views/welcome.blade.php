@@ -29,7 +29,7 @@
                     <ul>
                         <li><a href="">Inicio</a></li>
                         <li><a href="#about">Nosotros</a></li>
-                        <li><a href="">Menu</a></li>
+                        <li><a href="#menu">Menu</a></li>
                         <li><a href="">Promos</a></li>
                         <li><a href="">Sucursales</a></li>
                         <li><a href="">Contacto</a></li>
@@ -65,6 +65,10 @@
         </div>
 
 
+
+       
+
+
         <section id="about">
             <div class="center">
                 
@@ -77,13 +81,26 @@
                         <h2>Somos Chicken World</h2>
                         <h3>Una empresa familiar</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie eget tellus laoreet egestas. Aenean arcu nisl, euismod a elit a, pretium rutrum orci. Mauris maximus mauris nec malesuada congue. Sed interdum elit iaculis ligula molestie ornare. Nulla malesuada nibh ac risus feugiat, ut suscipit enim tempus. Etiam eget nulla tellus. Sed feugiat mi in dolor faucibus condimentum. Integer tincidunt laoreet iaculis. Etiam ullamcorper congue enim at hendrerit. Donec nibh diam, gravida eu leo et, mollis mattis neque. Duis sit amet nunc quis sapien elementum volutpat. Phasellus fermentum, massa et blandit dignissim, libero dolor faucibus enim, et pellentesque nulla justo eget quam.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec molestie eget tellus laoreet egestas. 
+                            Aenean arcu nisl, euismod a elit a, pretium rutrum orci. 
+                            Mauris maximus mauris nec malesuada congue. 
+                            Sed interdum elit iaculis ligula molestie ornare. 
+                            Nulla malesuada nibh ac risus feugiat, ut suscipit enim tempus. 
+                            Etiam eget nulla tellus. malesuada nibh ac risus feugiat, ut suscipit enim tempus. Etiam eget nulla tellus.
                         </p>
+                        <div>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+                        </div>
                     </div>
                
             </div>
         </section>
 
+
+      @include('includes.Menu');
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
