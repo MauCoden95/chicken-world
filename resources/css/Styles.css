@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 300ms;
 }
 
 html{
@@ -30,6 +31,7 @@ body{
     width: 100%;
     height: 4rem;
     border-bottom: .1rem solid #999;
+    background: var(--pink);
 }
 
 #header-top .center{
@@ -48,6 +50,7 @@ body{
     width: 100%;
     height: 10rem;
     border-bottom: .1rem solid #777;
+    background: var(--pink);
 }
 
 #header .center{
@@ -59,3 +62,52 @@ body{
 #header img{
     width: 7rem;
 }
+
+
+
+
+/*NAVBAR*/
+#nav{
+    width: 60%;
+    height: 10rem;
+}
+
+#nav ul{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav ul li{
+    list-style: none;
+    width: 20%;
+    height: 10rem;
+}
+
+#nav ul li a{ 
+    display: block;
+    line-height: 10rem;
+    color: var(--red);
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+#nav ul li a:hover{ 
+    color: var(--pink);
+    background: var(--red);
+}
+
+
+
+
+
+/*BANNER*/
+.carousel-inner img{
+    height: 50rem !important;
+}
+
+
