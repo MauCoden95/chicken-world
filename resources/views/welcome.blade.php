@@ -28,7 +28,7 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="">Inicio</a></li>
-                        <li><a href="">Nosotros</a></li>
+                        <li><a href="#about">Nosotros</a></li>
                         <li><a href="">Menu</a></li>
                         <li><a href="">Promos</a></li>
                         <li><a href="">Sucursales</a></li>
@@ -63,6 +63,26 @@
                 </div>
             </div>
         </div>
+
+
+        <section id="about">
+            <div class="center">
+                
+                    <div class="about_div--img">
+                        <img src="http://localhost/chicken-world/resources/Img/About.jpg" alt="About">
+                        <img src="http://localhost/chicken-world/resources/Img/Logo1.png" alt="About Logo">
+                    </div>
+
+                    <div class="about_div--info">
+                        <h2>Somos Chicken World</h2>
+                        <h3>Una empresa familiar</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie eget tellus laoreet egestas. Aenean arcu nisl, euismod a elit a, pretium rutrum orci. Mauris maximus mauris nec malesuada congue. Sed interdum elit iaculis ligula molestie ornare. Nulla malesuada nibh ac risus feugiat, ut suscipit enim tempus. Etiam eget nulla tellus. Sed feugiat mi in dolor faucibus condimentum. Integer tincidunt laoreet iaculis. Etiam ullamcorper congue enim at hendrerit. Donec nibh diam, gravida eu leo et, mollis mattis neque. Duis sit amet nunc quis sapien elementum volutpat. Phasellus fermentum, massa et blandit dignissim, libero dolor faucibus enim, et pellentesque nulla justo eget quam.
+                        </p>
+                    </div>
+               
+            </div>
+        </section>
 
 
 

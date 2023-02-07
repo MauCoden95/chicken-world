@@ -2,7 +2,7 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <link rel="stylesheet" href="http://localhost/chicken-world/resources/Img/Logo1.png">
+                <img src="http://localhost/chicken-world/resources/img/Logo1.png" alt="logo" style="width: 10rem;">
             </a>
         </x-slot>
 
@@ -47,11 +47,11 @@
 
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                    {{ __('Already registered?') }}
+                    ¿Ya está registrado?
                 </a>
 
                 <x-button class="ml-4 bg-red-600">
-                    {{ __('Register') }}
+                    Registrarse
                 </x-button>
             </div>
         </form>

@@ -35,7 +35,7 @@
            
 
             <div class="flex items-center justify-end mt-4">
-                
+                <a href="http://127.0.0.1:8000/register">¿No tiene cuenta?</a>
 
                 <x-button class="ml-3 bg-red-600">
                     {{ __('Log in') }}
