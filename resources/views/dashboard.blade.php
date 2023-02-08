@@ -35,9 +35,9 @@
 
                 <nav id="nav">
                     <ul>
-                        <li><a href="">Inicio</a></li>
+                        <li><a href="#">Inicio</a></li>
                         <li><a href="#about">Nosotros</a></li>
-                        <li><a href="">Menu</a></li>
+                        <li><a href="#menu">Menu</a></li>
                         <li><a href="">Promos</a></li>
                         <li><a href="">Sucursales</a></li>
                         <li><a href="">Contacto</a></li>
@@ -96,6 +96,9 @@
                
             </div>
         </section>
+
+
+        @include('includes.Menu');
 
 
 
