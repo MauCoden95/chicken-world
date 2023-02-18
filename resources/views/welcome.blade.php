@@ -73,10 +73,9 @@
 
 
         <section id="about">
+            <h2 class="section-title">Nosotros</h2>
             <div class="center">
-                
                     <div class="about_div--img">
-                        <img src="http://localhost/chicken-world/resources/Img/About.jpg" alt="About">
                         <img src="http://localhost/chicken-world/resources/Img/Logo1.png" alt="About Logo">
                     </div>
 
@@ -96,9 +95,28 @@
                             <a href="#"><i class="fab fa-facebook-square"></i></a>
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fab fa-instagram-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square"></i></a>
                         </div>
                     </div>
+
+                    
                
+            </div>
+
+            <h2 class="section-subtitle">¿Porqué elegirnos?</h2>
+            <div class="whyus">
+                <div>
+                    <img src="http://localhost/chicken-world/resources/Img/fast-delivery.png" alt="Delivery">
+                    <h3>Envíos rápidos</h3>
+                </div>
+                <div>
+                    <img src="http://localhost/chicken-world/resources/Img/dish.png" alt="Delivery">
+                    <h3>Excelente calidad</h3>
+                </div>
+                <div>
+                    <img src="http://localhost/chicken-world/resources/Img/rating.png" alt="Delivery">
+                    <h3>Clientes satisfechos</h3>
+                </div>
             </div>
         </section>
 
