@@ -15,6 +15,7 @@ use App\Http\Controllers\FoodController;
 */
 
 
+Route::get('/dashboard', [FoodController::Class,'index'])->middleware(['auth'])->name('index');
 
 Route::get('/', function () {
     return view('welcome');

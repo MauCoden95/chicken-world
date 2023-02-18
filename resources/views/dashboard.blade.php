@@ -38,9 +38,9 @@
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#about">Nosotros</a></li>
                         <li><a href="#menu">Menu</a></li>
-                        <li><a href="">Promos</a></li>
-                        <li><a href="">Sucursales</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#promo">Promos</a></li>
+                        <li><a href="#reviews">Reseñas</a></li>
+                        <li><a href="#contact">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -99,9 +99,12 @@
 
 
         @include('includes.Menu');
+        @include('includes.Promo');
+        @include('includes.Reviews');
+        @include('includes.Contact');
 
 
-
+        <script src="http://localhost/chicken-world/resources/js/Main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

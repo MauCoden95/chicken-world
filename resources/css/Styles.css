@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,26 +6,26 @@
     transition: all 200ms;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-:root{
-    --pink: #fee2e2;
+:root {
+    --pink: #e7cdcd;
     --red: #f00;
 }
 
-body{
-    background: var(--pink);
+body {
+    background-color: var(--pink) !important;
 }
 
-.center{
+.center {
     width: 85%;
     height: 100%;
     margin: 0 auto;
 }
 
-.section-title{
+.section-title {
     font-size: 4rem;
     text-align: center;
     margin: 3rem 0;
@@ -38,43 +38,44 @@ body{
 
 
 /*HEADER*/
-#header-top{
+#header-top {
     width: 100%;
     height: 4rem;
     border-bottom: .1rem solid #999;
     background: var(--pink);
 }
 
-#header-top .center{
+#header-top .center {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-#header-top .center a{
+#header-top .center a {
     font-size: 2rem;
     margin-left: 2rem;
     color: var(--red);
+    text-decoration: none;
 }
 
-#header{
+#header {
     width: 100%;
     height: 10rem;
     border-bottom: .1rem solid #777;
     background: var(--pink);
 }
 
-#header .center{
+#header .center {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#header img{
+#header img {
     width: 7rem;
 }
 
-#header-top strong{
+#header-top strong {
     font-size: 1.5rem;
     line-height: 4rem;
 }
@@ -82,12 +83,12 @@ body{
 
 
 /*NAVBAR*/
-#nav{
+#nav {
     width: 60%;
     height: 10rem;
 }
 
-#nav ul{
+#nav ul {
     width: 100%;
     height: 10rem;
     display: flex;
@@ -95,13 +96,13 @@ body{
     justify-content: space-between;
 }
 
-#nav ul li{
+#nav ul li {
     list-style: none;
     width: 20%;
     height: 10rem;
 }
 
-#nav ul li a{ 
+#nav ul li a {
     display: block;
     line-height: 10rem;
     color: var(--red);
@@ -111,7 +112,7 @@ body{
     padding: 0 2rem;
 }
 
-#nav ul li a:hover{ 
+#nav ul li a:hover {
     color: var(--pink);
     background: var(--red);
 }
@@ -121,7 +122,7 @@ body{
 
 
 /*BANNER*/
-.carousel-inner img{
+.carousel-inner img {
     height: 50rem !important;
 }
 
@@ -132,14 +133,14 @@ body{
 
 
 /*ABOUT*/
-#about{
+#about {
     width: 100%;
     height: 50rem;
     background: var(--pink);
     padding: 1rem;
 }
 
-#about .center{
+#about .center {
     height: 80%;
     display: flex;
     align-items: center;
@@ -150,7 +151,7 @@ body{
 
 
 .about_div--img,
-.about_div--info{
+.about_div--info {
     position: relative;
     width: 45%;
     height: 100%;
@@ -158,41 +159,41 @@ body{
 
 
 
-.about_div--img img:first-child{
+.about_div--img img:first-child {
     width: 50%;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.about_div--img img:last-child{
+.about_div--img img:last-child {
     width: 50%;
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.about_div--info h2{
+.about_div--info h2 {
     text-align: center;
     color: #000;
     font-size: 4rem;
     margin: 2rem 0;
 }
 
-.about_div--info h3{
+.about_div--info h3 {
     text-align: center;
     color: var(--red);
     font-size: 2.5rem;
     margin: 2rem 0;
 }
 
-.about_div--info p{
+.about_div--info p {
     text-align: justify;
     font-size: 1.5rem;
     margin: 1rem 0;
 }
 
-.about_div--info div{
+.about_div--info div {
     width: 30%;
     display: block;
     margin: 5rem auto;
@@ -201,12 +202,12 @@ body{
     justify-content: space-between;
 }
 
-.about_div--info div a{
+.about_div--info div a {
     font-size: 4rem;
     color: var(--red);
 }
 
-.about_div--info div a:hover{
+.about_div--info div a:hover {
     color: rgb(255, 86, 86);
 }
 
@@ -215,7 +216,250 @@ body{
 
 
 /*MENU*/
-#menu{
+#menu {
     width: 100%;
     height: 50rem;
+}
+
+
+
+
+
+/*PROMO*/
+#promo {
+    margin-top: 1rem;
+    padding: 1px;
+    width: 100%;
+    min-height: 50rem;
+    background: var(--pink);
+}
+
+#promo .promos {
+    width: 100%;
+    min-height: 40rem;
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+    align-content: center;
+    padding: 2rem;
+}
+
+#promo .promos img {
+    width: 30rem;
+    box-shadow: 0 0 1rem 0 rgba(240, 8, 8, 0.75);
+}
+
+
+
+
+
+
+
+
+
+/*REVIEWS*/
+#reviews {
+    padding: 2px;
+    width: 100%;
+    min-height: 50rem;
+    background: var(--pink);
+    margin-top: 5rem;
+}
+
+.testimonial-slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    background: rgba(192, 192, 192, 0.6);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+
+.testimonial.active {
+    opacity: 1;
+}
+
+.testimonial p {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.testimonial .author {
+    display: block;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.testimonial img {
+    display: block;
+    width: 10rem;
+    margin: 2rem auto;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACT*/
+#contact {
+    display: block;
+    padding: 1px;
+    width: 100%;
+    min-height: 50rem;
+    background: var(--pink);
+}
+
+#contact form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+#contact label,
+#contact input,
+#contact textarea {
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    border: none;
+    transition: none;
+}
+
+#contact textarea {
+    height: 15rem;
+}
+
+#contact button {
+    padding: 1rem 2rem;
+    background-color: var(--red);
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+#contact button:hover {
+    background-color: rgb(245, 52, 52);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: .2rem solid var(--red);
+}
+
+#contact form>div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-4 {
+    width: 33.33333%;
+    max-width: 33.33333%;
+}
+
+.col-md-6 {
+    width: 50%;
+    max-width: 50%;
+}
+
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer ul {
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer i {
+    margin-right: 1rem;
+}
+
+footer p {
+    font-size: 1.5rem;
+}
+
+footer p i,
+footer li i{
+    color: var(--red);
 }

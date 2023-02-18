@@ -14,7 +14,9 @@ class FoodController extends Controller
      */
     public function index()
     {
-        //
+        $foods = Food::All();
+
+        return view('includes.Menu', compact('foods'));
     }
 
     /**
